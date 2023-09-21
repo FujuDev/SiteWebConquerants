@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jd9NAMzv+AGQhYwTqclEoodk94fRUjKHvb/XW6eeLcd+U5MEyAWzX0L3ddrgEBIg3h7h6FtNO6t8bEkSR8FGFQ==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\projets\\Site Conquerants\\SiteConquerants\\SiteConquerants\\SiteConquerants.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lefeb\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
+    "C:\\Users\\Lefeb\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
+    "C:\\Users\\Lefeb\\.nuget\\packages\\google.apis.core\\1.62.0\\google.apis.core.1.62.0.nupkg.sha512",
+    "C:\\Users\\Lefeb\\.nuget\\packages\\google.apis.youtube.v3\\1.62.0.3169\\google.apis.youtube.v3.1.62.0.3169.nupkg.sha512",
+    "C:\\Users\\Lefeb\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

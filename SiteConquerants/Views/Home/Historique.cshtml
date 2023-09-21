@@ -1,0 +1,29 @@
+﻿@model List<VideoConqu>
+@{
+    ViewData["Title"] = "Historique";
+}
+
+<div id="divPane">
+    <h1 class="display-4 text-center mb-3">@ViewData["Title"]</h1>
+
+    <div class="container-fluid mt-2">
+        @foreach (var video in Model)
+        {
+            <a asp-route="redirectionvideo" asp-route-id="@video.Id" class="text-decoration-none" style="color: inherit;" target="_blank">
+                <div class="border border-5 border-light m-3 divElement">
+                    <div class="m-5 row text-center align-items-center">
+                        <div class="col">
+                            <img src="@video.UrlImg" loading="lazy" class="w-75" />
+                        </div>
+                        <div class="col">
+                            <div class="d-flex flex-column align-items-center">
+                                <p class="text-uppercase lead">@video.Title</p>
+                                <p>@video.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>

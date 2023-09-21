@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+@font-face {
+    font-family: "Frutiger";
+    src: url('../resources/fonts/FrutigerLTStd.otf');
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Frutiger";
+}
+
+#customNavbar {
+    box-shadow: 15px 10px 30px #6b5d5d, -15px -15px 30px #ffffff;
+    background: rgb(12,12,13);
+    background: linear-gradient(90deg, rgba(12,12,13,1) 8%, rgba(81,81,91,1) 77%, rgba(80,55,55,1) 100%);
+    transition: box-shadow 0.2s linear;
+    padding: 15px;
+    border-radius: 0;
+}
+
+
+    #customNavbar:hover {
+        box-shadow: 15px 20px 15px #5f5e5e, -15px -15px 30px #000000;
+        transition: box-shadow 0.2s linear;
+    }
+
+.boutonNavBar {
+    font-size: 2em;
+    display: block;
+    text-decoration: underline 4px;
+    transition: font-size 0.1s linear;
+}
+
+.boutonNavBar:hover {
+    background-color: rgb(95, 91, 91, 0.15);
+    font-size: 3em;
+    transition: font-size 0.1s linear;
+}
+
+#divPane {
+    background: rgba(12, 12, 13, 0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(168, 168, 168, 0.8); /* Ombre légère */
+    transition: box-shadow 0.2s linear;
+}
+
+    #divPane:hover {
+        box-shadow: 10px 10px 10px rgb(101, 100, 100); /* Ombre légère */
+        transition: box-shadow 0.2s linear;
+    }
+
+.divElement {
+    border-radius: 69px;
+    background: linear-gradient(315deg, #525151, #454444);
+    box-shadow: -9px -9px 18px #313030, 9px 9px 18px #696868;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    /* Style au survol */
+    .divElement:hover {
+        transform: scale(1.05); /* Légère augmentation de l'échelle au survol */
+        box-shadow: -10px -10px 20px #313030, 10px 10px 20px #696868; /* Modification de l'ombre au survol */
+    }
